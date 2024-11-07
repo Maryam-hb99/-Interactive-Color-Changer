@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#color-box {
+    width: 200px;
+    height: 200px;
+    background-color: #5833ff; 
+    margin-bottom: 20px;
+}
+
+#change-color-btn {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #223dc5;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#change-color-btn:hover {
+    background-color: #bbd1f7;
+}
